@@ -1,0 +1,44 @@
+name: alamia
+description: A new Flutter application.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.3
+  provider: ^4.3.2
+  http: ^0.12.1
+  connectivity: ^0.4.9+2
+  shared_preferences: ^0.5.8
+  qrscan: ^0.2.17
+  double_back_to_close: ^1.0.2+mit
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  
+  assets:
+    - images/emp.jpeg
+    - images/login_icon.png
+    - images/mtech_logo.png
+    - images/qr.png
+
+  
+  fonts:
+    - family: Bahij_Insan
+      fonts:
+        - asset: fonts/Bahij_Insan-Bold.ttf
